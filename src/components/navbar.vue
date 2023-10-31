@@ -3,12 +3,11 @@
     <div class="flex items-center w-full space-x-4">
       <h1 class="text-4xl text-white font-normal">URBITÁVEL</h1>
       <img src="../assets/icons/salvando 1.svg" alt="logo"/>
-        <div class="bg-greenDark w-full flex flex-row hidden lg:flex"  >
+        <div class="bg-greenDark w-full flex flex-row hidden xl:flex"  >
           <router-link v-for="page in pages" 
             :key="page.route" 
             :to="page.route" 
             class="text-white p-2 flex flex-row"
-            color="transparent"
           >
             {{page.name}}
           </router-link>
