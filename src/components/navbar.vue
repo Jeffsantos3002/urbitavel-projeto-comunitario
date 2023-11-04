@@ -2,7 +2,9 @@
   <div class="w-full flex flex-row items-center px-5 ">
     <div class="flex items-center w-full space-x-4">
       <h1 class="text-4xl text-white font-normal">URBITÁVEL</h1>
-      <img src="../assets/icons/salvando 1.svg" alt="logo"/>
+      <div  class="w-8">
+        <img :src="logoSrc"/>
+      </div>
         <div class="bg-greenDark w-full flex flex-row hidden xl:flex"  >
           <router-link v-for="page in pages" 
             :key="page.route" 
@@ -24,4 +26,6 @@
 <script setup>
 
 import pages from  '../../data/pages'
+
+const logoSrc = require('@/assets/icons/logo.svg');
 </script>

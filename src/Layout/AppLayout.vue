@@ -19,10 +19,10 @@
           </v-list-item>
         </v-list>
       </v-navigation-drawer>
-      <v-main class="w-full">
-        <v-card class="px-5 py-5">
-          <router-view class="w-full"/>
-        </v-card>
+      <v-main class="  h-1/4">
+        <div class=" bg-cover w--full z-10" :style="{ backgroundImage: 'url(' + bg + ')' }">54984</div>
+          <router-view class="  px-7 py-5"/>
+  
           
       </v-main>
     </v-layout>
@@ -36,5 +36,8 @@ import Navbar from '@/components/navbar.vue'
 import pages from  '../../data/pages'
 
 const drawer = ref(null);
+
+const bg = require('@/assets/backgroundTreen.png');
+
 
 </script>
