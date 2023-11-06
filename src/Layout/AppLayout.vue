@@ -19,11 +19,10 @@
           </v-list-item>
         </v-list>
       </v-navigation-drawer>
-      <v-main class="  h-1/4">
-        <div class=" bg-cover w--full z-10" :style="{ backgroundImage: 'url(' + bg + ')' }">54984</div>
-          <router-view class="  px-7 py-5"/>
-  
-          
+      <v-main class="flex">
+        <span class="backgroundSpan bg-cover z-1 h-2/6 w-full absolute " :style="{ backgroundImage: 'url(' + bg + ')', width: '100%' }"> </span>
+        <router-view class=" z-10 routerView realtive px-7 py-5 "/>
+
       </v-main>
     </v-layout>
   </v-card>
@@ -39,5 +38,8 @@ const drawer = ref(null);
 
 const bg = require('@/assets/backgroundTreen.png');
 
-
 </script>
+
+<style>
+
+</style>

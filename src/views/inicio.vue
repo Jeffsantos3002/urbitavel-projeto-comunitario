@@ -11,9 +11,7 @@
           <p>Se trata, portanto, de uma ideia  interventiva que tem como objetivo recompensar a população urbana por descartar corretamente os seus lixos, através do programa consciente de descarte. </p>
         </div>
         <img :src="imgHome" class="w-1/2"/>
-      </div>
-    
-      
+      </div> 
     </cardUrbitavel>
     <div>
       <h2>Lutamos pela saúde do planeta que habitamos</h2>
