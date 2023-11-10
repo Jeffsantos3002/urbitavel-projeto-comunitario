@@ -19,9 +19,9 @@
           </v-list-item>
         </v-list>
       </v-navigation-drawer>
-      <v-main class="flex">
-        <span class="backgroundSpan bg-cover z-1 h-2/6 w-full absolute " :style="{ backgroundImage: 'url(' + bg + ')', width: '100%' }"> </span>
-        <router-view class=" z-10 routerView realtive px-7 py-5 "/>
+      <v-main class="flex w-full justify-center">
+        <span class="backgroundSpan bg-cover z-1 h-4/6 w-full absolute " :style="{ backgroundImage: 'url(' + bg + ')', width: '100%' }"> </span>
+        <router-view class=" z-10 realtive px-14 py-5 "/>
 
       </v-main>
     </v-layout>
