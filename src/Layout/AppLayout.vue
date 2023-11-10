@@ -20,7 +20,7 @@
         </v-list>
       </v-navigation-drawer>
       <v-main class="flex w-full justify-center">
-        <span class="backgroundSpan bg-cover z-1 h-4/6 w-full absolute " :style="{ backgroundImage: 'url(' + bg + ')', width: '100%' }"> </span>
+        <span class="backgroundSpan bg-cover z-1 h-3/6 w-full absolute " :style="{ backgroundImage: 'url(' + bg + ')', width: '100%' }"> </span>
         <router-view class=" z-10 realtive px-14 py-5 "/>
 
       </v-main>

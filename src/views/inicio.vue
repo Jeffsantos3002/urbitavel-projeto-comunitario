@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center flex-col mt-40">
+  <div class="flex items-center flex-col mt-40 space-y-24">
     <div>
       <cardUrbitavel>
         <div class="flex flex-col lg:flex-row lg:space-x-24 space-y-16 lg:space-y-0 lg:items-center  ">
@@ -20,15 +20,22 @@
     </cardUrbitavel>
     </div>
   
-    <div>
-      <h2>Lutamos pela saúde do planeta que habitamos</h2>
-      <h4>Podemos mudar o mundo</h4>
-      <div >
-        <p>Se você quer defender o planeta e se somar às pessoas que atuam para proteger o meio ambiente, aqui é o seu lugar!</p>
-        <p>Nós acreditamos que um mundo mais verde, pacífico e justo para todas as formas de vida é possível, e não poupamos esforços para alcançá-lo.</p>
-        <p>Temos décadas de ativismo que muito nos ensinou e que nos mostra que ainda temos muito o que fazer.</p>
+    <div class="flex flex-col  items-center">
+      <h2 class="text-3xl text-center mb-5">Lutamos pela saúde do planeta que habitamos</h2>
+      <h4 class="text-xl mb-16">Podemos mudar o mundo</h4>
+      <div class="lg:w-3/5 mb-11">
+        <p class="text-base">Se você quer defender o planeta e se somar às pessoas que atuam para proteger o meio ambiente, aqui é o seu lugar!</p>
+        <p class="text-base">Nós acreditamos que um mundo mais verde, pacífico e justo para todas as formas de vida é possível, e não poupamos esforços para alcançá-lo.</p>
+        <p class="text-base">Temos décadas de ativismo que muito nos ensinou e que nos mostra que ainda temos muito o que fazer.</p>
       </div>
-      <v-btn>saiba quem somos</v-btn>
+      
+        <v-btn variant="outlined">
+          <router-link to='/sobre' class="text-lilac ">
+            saiba quem somos
+          </router-link>
+         
+        </v-btn>
+   
     </div>
   </div>
   
@@ -39,3 +46,9 @@ import CardUrbitavel from '@/components/CardUrbitavel.vue'
 
 const imgHome = require('@/assets/trashBins.png');
 </script>
+
+<style>
+.v-btn--variant-outlined {
+  border: thin solid #3b4e92;
+}
+</style>

@@ -5,7 +5,7 @@
       <div  class="w-8">
         <img :src="logoSrc"/>
       </div>
-        <div class="bg-greenDark w-full flex flex-row hidden xl:flex"  >
+        <div class="bg-greenDark w-full flex flex-row hidden lg:flex"  >
           <router-link v-for="page in pages" 
             :key="page.route" 
             :to="page.route" 

@@ -6,7 +6,8 @@ export default{
       'greenDark': '#2C4928',
       'title': '#678363',
       'white': '#FFFFFF',
-      'brown': '#4B231B'
+      'brown': '#4B231B',
+      'lilac': '#3b4e92'
     },
     fontFamily: {
       'montserrat' : ['Montserrat', 'sans-serif'],
