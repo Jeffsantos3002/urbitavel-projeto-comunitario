@@ -3,11 +3,11 @@ export default{
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     colors:{
-      'greenFanese': '#28DC55',
       'title': '#678363',
       'white': '#FFFFFF',
       'brown': '#4B231B',
-      'lilac': '#3b4e92'
+      'lilac': '#3b4e92',
+      'gray': '#BEBEBE',
     },
     fontFamily: {
       'montserrat' : ['Montserrat', 'sans-serif'],

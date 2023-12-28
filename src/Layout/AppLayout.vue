@@ -1,6 +1,6 @@
 <template>
   <v-card class="elevation-0">
-    <v-layout>
+    <v-layout class="flex flex-col">
       <v-app-bar 
         class="flex justify-between flex-row items-center space-x-8"
         color="greenDark"
@@ -17,13 +17,18 @@
           >
             {{page.name}}
           </v-list-item>
+          <v-list-item class="">
+            <router-link to="/apoie" class="text-white p-2">
+              Apoie
+            </router-link>
+          </v-list-item>
         </v-list>
       </v-navigation-drawer>
       <v-main class="flex w-full justify-center">
-        <span class="backgroundSpan bg-cover z-1 h-3/6 w-full absolute " :style="{ backgroundImage: 'url(' + bg + ')', width: '100%' }"> </span>
+        <span class="backgroundSpan bg-cover z-1 h-2/6 w-full absolute " :style="{ backgroundImage: 'url(' + bg + ')', width: '100%' }"> </span>
         <router-view class=" z-10 realtive px-14 py-5 "/>
-
       </v-main>
+      <FooterUrb/>
     </v-layout>
   </v-card>
   
@@ -33,6 +38,7 @@
 import { ref } from 'vue';
 import Navbar from '@/components/navbar.vue'
 import pages from  '../../data/pages'
+import FooterUrb from '@/components/footer.vue'
 
 const drawer = ref(null);
 

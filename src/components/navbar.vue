@@ -1,8 +1,8 @@
 <template>
   <div class="w-full flex flex-row items-center px-5 ">
-    <div class="flex items-center w-full space-x-4">
+    <div class="flex items-center justify-center w-full space-x-4">
       <h1 class="text-4xl text-white font-normal">URBITÁVEL</h1>
-      <div  class="w-8">
+      <div class="w-8 hidden xl:flex">
         <img :src="logoSrc"/>
       </div>
         <div class="bg-greenDark w-full flex flex-row hidden lg:flex"  >
@@ -15,8 +15,8 @@
           </router-link>
         </div>
     </div>
-    <div class="">
-        <router-link to="/apoie" class="text-brown text-base font-semibold bg-white py-2 px-8 rounded-3xl">
+    <div class="hidden sm:flex ">
+        <router-link to="/apoie" class="text-brown text-base font-semibold bg-white p-2 px-8 rounded-3xl">
           Apoie
         </router-link>
     </div>
