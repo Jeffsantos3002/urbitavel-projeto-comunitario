@@ -1,7 +1,6 @@
 <template class="font-nunito">
   <div >
     <AppLayout/>
-   
   </div>
 </template>
 
