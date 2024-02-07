@@ -5,7 +5,7 @@
         class="flex justify-between flex-row items-center space-x-8"
         color="greenDark"
       >
-        <v-app-bar-nav-icon @click="drawer = !drawer" class="d-xs-flex d-lg-none"></v-app-bar-nav-icon>
+        <v-app-bar-nav-icon @click="drawer = !drawer" class="d-xs-flex d-lg-none absolute"></v-app-bar-nav-icon>
         <Navbar/>
       </v-app-bar>
       <v-navigation-drawer v-model="drawer" color="greenDark" temporary >

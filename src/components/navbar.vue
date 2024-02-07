@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex flex-row items-center px-5 ">
+  <div class="w-full flex flex-row items-center sm:px-5 ">
     <div class="flex items-center justify-center w-full space-x-4">
       <h1 class="text-4xl text-white font-normal">URBITÁVEL</h1>
       <div class="w-8 hidden xl:flex">

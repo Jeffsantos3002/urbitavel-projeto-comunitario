@@ -12,7 +12,7 @@
         <input type="email" placeholder="Email" class="pl-2 w-full focus:outline-none">
       </div>
         <div class="w-48">
-          <v-btn variant="outlined" class="bg-white">
+          <v-btn variant="outlined" color="#3b4e92" :style="{ borderColor: '#3b4e92' }" class="bg-white" >
             <span class="text-lilac">
               Inscrever-se         
             </span>
@@ -21,8 +21,8 @@
         
      
     </div>
-    <div class="bg-title w-full	h-20">
-   
+    <div class="bg-title w-full	h-20 flex items-center justify-center p-8">
+      <p class="text-white text-center font-normal">TM Urbitável Brasil 2023 | Organização sem fins lucrativos </p>
     </div>
   </div>
 </template>
@@ -40,8 +40,4 @@
   background-color: white !important; 
 }
 
-.v-btn--variant-outlined {
-  border: thin solid #3b4e92;
-  background-color: white;
-}
 </style>
