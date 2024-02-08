@@ -29,7 +29,7 @@
         <p class="text-base">Temos décadas de ativismo que muito nos ensinou e que nos mostra que ainda temos muito o que fazer.</p>
       </div>
       
-        <v-btn variant="outlined">
+        <v-btn variant="outlined" color="#3b4e92" :style="{ borderColor: '#3b4e92' }">
           <router-link to='/sobre' class="text-lilac ">
             saiba quem somos
           </router-link>
@@ -48,7 +48,5 @@ const imgHome = require('@/assets/trashBins.png');
 </script>
 
 <style>
-.v-btn--variant-outlined {
-  border: thin solid #3b4e92;
-}
+
 </style>
