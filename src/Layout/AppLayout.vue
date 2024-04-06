@@ -18,7 +18,7 @@
             {{page.name}}
           </v-list-item>
           <v-list-item class="">
-            <router-link to="/apoie" class="text-white p-2">
+            <router-link to="/apoie" class="text-white p-2 flex sm:hidden">
               Apoie
             </router-link>
           </v-list-item>
