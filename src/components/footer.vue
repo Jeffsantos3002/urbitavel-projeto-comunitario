@@ -13,28 +13,26 @@
         <input id="email" type="email" placeholder="Email" class=" w-full focus:outline-none">
       </div>
       <p v-if="verificaEmail" class="text-white font-bold text-sm mt-2">{{ verificaEmail }}</p>
-        <div class="w-48">
-          <v-btn variant="outlined" color="#3b4e92" :style="{ borderColor: '#3b4e92' }" class="bg-white" >
-            <span class="text-lilac">
-              Inscrever-se         
-            </span>
-            <v-dialog 
-              v-model="dialog"
-              width="auto"
-            >
-              <v-card class="flex flex-col items-center justify-center py-10">
-                <v-card-text> Você foi cadastrado com sucesso! </v-card-text>
-                <v-icon
-                  end
-                  icon="mdi-checkbox-marked-circle"
-                  color="title"
-                ></v-icon>
-              </v-card>
-            </v-dialog>
-          </v-btn>
-      </div>
-        
-     
+      <div class="w-48">
+        <v-btn variant="outlined"  :style="{ borderColor: '#3b4e92' }" class="bg-white" @click.prevent="handleSubmit" >
+          <span class="text-lilac">
+            Inscrever-se         
+          </span>
+          <v-dialog 
+            v-model="dialog"
+            width="auto"
+          >
+            <v-card class="flex flex-col items-center justify-center py-10">
+              <v-card-text> Você foi cadastrado com sucesso! </v-card-text>
+              <v-icon
+                end
+                icon="mdi-checkbox-marked-circle"
+                color="title"
+              ></v-icon>
+            </v-card>
+          </v-dialog>
+        </v-btn>
+      </div>   
     </form>
     <div class="bg-title w-full	h-20 flex items-center justify-center p-8">
       <p class="text-white text-center font-normal">TM Urbitável Brasil 2023 | Organização sem fins lucrativos </p>

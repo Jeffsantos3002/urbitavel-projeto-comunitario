@@ -8,6 +8,7 @@ export default{
       'brown': '#4B231B',
       'lilac': '#3b4e92',
       'gray': '#BEBEBE',
+      'card': '#F4F9F3'
     },
     fontFamily: {
       'montserrat' : ['Montserrat', 'sans-serif'],
