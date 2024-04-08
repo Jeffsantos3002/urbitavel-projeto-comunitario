@@ -10,24 +10,24 @@
         <CardCausas v-for="(card, index) in cards" :key="index" :icon="card.img" :alt="card.alt" :texto="card.texto" />
 
       </div>
-      <div class=" mx-5 md:w-1/3 space-y-5">
-        <p class="text-justify">
+      <div class="w-1/3 space-y-5">
+        <p>
           Poluição do ar: A queima de lixo em aterros mal gerenciados pode liberar gases tóxicos, como o dióxido de carbono, 
           metano e óxidos de nitrogênio, que contribuem para o aquecimento global e a poluição do ar.
         </p>
-        <p class="text-justify">
+        <p>
           Poluição da água: O descarte inadequado de lixo pode contaminar os corpos d'água próximos, prejudicando a vida marinha
           e a qualidade da água. Além disso, substâncias tóxicas podem se infiltrar no solo, contaminando os aquíferos subterrâneos.
         </p>
-        <p class="text-justify">
+        <p>
           Emissão de gases de efeito estufa: Os aterros sanitários são responsáveis por cerca de 20% das emissões totais de metano, um gás de 
           efeito estufa muito mais potente que o dióxido de carbono. Isso contribui para o aquecimento global e as mudanças climáticas.
         </p>
-        <p class="text-justify">
+        <p>
           Prejuízos à saúde pública: O acúmulo de lixo em áreas urbanas pode atrair pragas como mosquitos, ratos e
           baratas, que podem transmitir doenças para os humanos.
         </p>
-        <p class="text-justify">
+        <p>
           Degradação do solo: A disposição inadequada de lixo pode causar erosão do solo e a contaminação com produtos químicos tóxicos, 
           tornando-o incapaz de sustentar a vida vegetal.
         </p>

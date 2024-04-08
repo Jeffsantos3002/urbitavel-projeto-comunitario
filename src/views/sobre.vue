@@ -1,8 +1,8 @@
 <template>
-   <div class="flex items-center flex-col mt-40 space-y-24 lg:w-1/2 mb-16 px-0">
+   <div class="flex items-center flex-col mt-40 space-y-24 w-1/2 mb-16">
       <CardUrbitavel>
-        <div class=" flex flex-col space-y-4 sm:space-y-11 lg:items-center  ">
-          <h1 class="text-3xl md:text-5xl text-title font-medium text-center ">
+        <div class=" flex flex-col space-y-11 lg:items-center  ">
+          <h1 class="text-5xl text-title font-medium ">
               SOBRE NÓS
             </h1>
           <div class="flex justify-center">
