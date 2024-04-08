@@ -2,15 +2,15 @@
   <div>
     <CardUrbitavel>
       <form id="form" class="w-full flex flex-col items-center justify-center">
-        <h1 class="text-5xl text-title text-center font-medium mb-2">
+        <h1 class="text-3xl md:text-5xl text-title text-center font-medium mb-2">
           Canal de comunicação
         </h1>
         <div class="md:w-96 flex flex-col space-y-10">
           <div>
-            <p class="text-xl md:text-center text-[#484545] ">
+            <p class="text-lg md:text-xl md:text-center text-[#484545] ">
               Entre em contato com nós via e-mail. 
             </p>
-            <p class="text-xl text-center text-[#484545] ">
+            <p class="text-lg md:text-xl md:text-center text-[#484545] ">
               Responderemos o mais rápido possível.
             </p>
           </div>
