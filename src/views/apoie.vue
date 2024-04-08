@@ -1,8 +1,8 @@
 <template>
   <CardUrbitavel class="mx-10 my-20">
-    <div class="flex flex-col items-center justify-center space-y-20 my-20">
+    <div class="flex flex-col items-center justify-center space-y-10 md:space-y-20 md:my-20">
       <div class="flex flex-col items-center justify-center space-y-2">
-        <h1 class="text-4xl text-center">
+        <h1 class="text-3xl md:text-4xl text-center">
           Doe agora mesmo.
         </h1>
         <p class="text-center text-base w-2/3">Precisamos de recursos para proteger a Terra e lutar contra o descarte indevido de lixo.</p>
