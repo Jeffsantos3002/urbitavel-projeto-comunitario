@@ -2,6 +2,8 @@
 
 O propósito deste projeto é desenvolver um website para uma fictícia organização ambiental comunitária denominada "Urbitável". A concepção visual do site baseia-se em um design público disponibilizado no Figma.
 
+### Link do Deploy Projeto: [https://urbitavel.vercel.app/](https://urbitavel.vercel.app/)
+
 ## Tecnologias:
 - Vue.js
 - Vuetify
