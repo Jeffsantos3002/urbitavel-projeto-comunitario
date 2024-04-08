@@ -22,11 +22,11 @@
           >
             {{page.name}}
           </v-list-item>
-          <v-list-item class="">
-            <router-link to="/apoie" class="text-white p-2 flex sm:hidden">
+          <span class="w-full sm:hidden">
+            <v-list-item to="/apoie" class="text-white p-2 flex sm:hidden">
               Apoie
-            </router-link>
           </v-list-item>
+          </span>
         </v-list>
       </v-navigation-drawer>
       <v-main class="flex w-full justify-center">

@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center flex-col mt-60 mb-44">
-    <CardUrbitavel class="sm:5/12 lg:w-5/12 mb-10">
+    <CardUrbitavel class="sm:5/12 lg:w-5/12 my-10">
       <p class="text-xl w-full text-[#484545] text-justify">
         Quais serão as consequências para o meio ambiente se houver um mal gerenciamento e descarte incorreto dos lixos em meios urbanos?
       </p>
