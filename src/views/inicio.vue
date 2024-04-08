@@ -4,7 +4,7 @@
       <cardUrbitavel>
         <div class="flex flex-col lg:flex-row lg:space-x-24 space-y-16 lg:space-y-0 lg:items-center  ">
           <div class=" lg:w-3/6 flex flex-col items-center">
-            <h1 class="text-5xl text-title font-bold mb-11">
+            <h1 class=" text-3xl md:text-5xl text-title font-bold mb-11">
               URBITÁVEL
             </h1>
             <div class=" flex flex-col space-y-2">
