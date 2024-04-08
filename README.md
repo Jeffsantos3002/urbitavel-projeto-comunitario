@@ -9,3 +9,18 @@ O propósito deste projeto é desenvolver um website para uma fictícia organiza
 - HTML
 
 A combinação destas tecnologias visa proporcionar uma implementação eficiente, moderna e funcional do website da organização "Urbitável", promovendo uma experiência de usuário atraente e intuitiva.
+
+## Instruções para executar o projeto
+
+### Primeiramente verifique se possui as instalações de Node.js com o npm.
+
+### Instalação das Dependências
+```
+pnpm install
+```
+
+### Execução do front
+
+```
+pnpm run serve
+```
